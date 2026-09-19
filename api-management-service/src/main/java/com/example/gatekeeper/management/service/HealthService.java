@@ -18,7 +18,7 @@ public class HealthService {
              result="UP";
             }
         }catch (Exception e){
-            System.out.println("MYSQL health check failed");
+            System.out.println("MYSQL health check failed!!!");
         }
         return result;
     }
